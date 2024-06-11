@@ -1,0 +1,724 @@
+{% load static %}
+<!doctype html>
+<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable" data-theme="default" data-theme-colors="default">
+
+    
+<!-- Mirrored from themesbrand.com/velzon/html/master/job-landing.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Apr 2024 17:29:35 GMT -->
+<head>
+
+        <meta charset="utf-8" />
+        <title>Job Landing | Velzon - Admin & Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="{% static  'images/favicon.ico '%}">
+
+        <!--Swiper slider css-->
+        <link href="{% static  'libs/swiper/swiper-bundle.min.css'%}" rel="stylesheet" type="text/css" />
+
+        <!-- Layout config Js -->
+        <script src="{% static  'js/layout.js'%}"></script>
+        <!-- Bootstrap Css -->
+        <link href="{% static  'css/bootstrap.min.css'%}" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="{% static  'css/icons.min.css'%}" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="{% static  'css/app.min.css'%}" rel="stylesheet" type="text/css" />
+        <!-- custom Css-->
+        <link href="{% static  'css/custom.min.css'%}" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+        <!-- Begin page -->
+        <div class="layout-wrapper landing">
+            <nav class="navbar navbar-expand-lg navbar-landing fixed-top job-navbar" id="navbar">
+                <div class="container-fluid custom-container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="{% static  'logo/backless.png'%}" class="card-logo card-logo-dark" alt="logo dark" height="80">
+                        
+                    </a>
+                    <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#hero">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#process">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#findJob">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#candidates">candidates</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#categories">Categories</a>
+                            </li>
+                            
+                            
+                            
+                        </ul>
+
+                        <div class="">
+                            <a href="auth-signin-basic.html" class="btn btn-soft-primary"><i class="ri-user-3-line align-bottom me-1"></i> Login & Register</a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+            <!-- end navbar -->
+
+            <!-- start hero section -->
+            <section class="section job-hero-section bg-light pb-0" id="hero">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-6">
+                            <div>
+                                <h1 class="display-7 fw-semibold text-capitalize lh-base">Innovate. Integrate. Elevate.</h1>
+                                <h1 class="display-7 fw-semibold text-capitalize mb-3 lh-base">Crafting Tomorrow's Solutions Today.</h1>
+                                <p class="lead text-muted lh-base mb-4">Welcome to Vasunite, where we transform your ideas into impactful digital solutions. Carefully crafted after analyzing the needs of different industries.</p>
+                                
+
+                               
+                            </div>
+                        </div>
+                        <!--end col-->
+                        <div class="col-lg-4">
+                            <div class="position-relative home-img text-center mt-5 mt-lg-0">
+                                <div class="card p-3 rounded shadow-lg inquiry-box">
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar-sm flex-shrink-0 me-3">
+                                            <div class="avatar-title bg-warning-subtle text-warning rounded fs-18">
+                                                <i class="ri-mail-send-line"></i>
+                                            </div>
+                                        </div>
+                                        <h5 class="fs-15 lh-base mb-0">Joining into Vasunite?</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card p-3 rounded shadow-lg application-box">
+                                    <h5 class="fs-15 lh-base mb-3">Applications</h5>
+                                    <div class="avatar-group">
+                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Brent Gonzalez">
+                                            <div class="avatar-xs">
+                                                <img src="{% static  'images/users/avatar-3.jpg'%}" alt="" class="rounded-circle img-fluid">
+                                            </div>
+                                        </a>
+                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Ellen Smith">
+                                            <div class="avatar-xs">
+                                                <div class="avatar-title rounded-circle bg-danger">
+                                                    S
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Ellen Smith">
+                                            <div class="avatar-xs">
+                                                <img src="{% static  'images/users/avatar-10.jpg'%}" alt="" class="rounded-circle img-fluid">
+                                            </div>
+                                        </a>
+                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top">
+                                            <div class="avatar-xs">
+                                                <div class="avatar-title rounded-circle bg-success">
+                                                    Z
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Brent Gonzalez">
+                                            <div class="avatar-xs">
+                                                <img src="{% static  'images/users/avatar-9.jpg'%}" alt="" class="rounded-circle img-fluid">
+                                            </div>
+                                        </a>
+                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="More Appliances">
+                                            <div class="avatar-xs">
+                                                <div class="avatar-title fs-13 rounded-circle bg-light border-dashed border text-primary">
+                                                    2k+
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="{% static  'images/job-profile2.png'%}" alt="" class="user-img">
+
+                                <div class="circle-effect">
+                                    <div class="circle"></div>
+                                    <div class="circle2"></div>
+                                    <div class="circle3"></div>
+                                    <div class="circle4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- end hero section -->
+
+            <section class="section" id="process">
+                <div class="container">
+                    <div class="row justify-content-center" style="margin-bottom: -70px;">
+                        <div class="col-lg-8">
+                            <div class="text-center mb-5">
+                                <h1 class="mb-3 ff-secondary fw-semibold lh-base"> About <span class="text-primary">Vasunite</span></h1>
+                                <p class="text-muted">The name "Vasunite" is derived form the word "Vasundhara" which is a Sanaskrit term meaning "earth" or  "world". The addition of the suffix "-ite" gives the name a modren and techonlogical twist , making it a fitting name for a Software company like Vasundhara Infotech. The name suggests a company that is grounded in treditional values but also innovative and forward-thinking, with a global reach. Overall,the name Vasunite evokes a sense of stability,reliability, and techonlogical advancement,which are all desirable qualities for a software company.</p>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!--end row-->
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6" style="margin-top: 200px;">
+                            <div class="card shadow-lg">
+                                <div class="card-body p-4 pt-4 pb-0">
+                                    <h1 class="fw-bold display-5 ff-secondary mb-4 text-success position-relative">
+                                        <div class="job-icon-effect"></div>
+                                        <span>1</span>
+                                    </h1>
+                                    <h6 class="fs-17 mb-2">Mission Statement:</h6>
+                                    <p class="text-muted mb-0 fs-15">At Vasunite, our mission is to drive technological innovation by creating efficient, user-friendly software solutions that meet the needs of our clients. We strive to empower businesses through cutting-edge technology and exceptional service, transforming ideas into impactful realities.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6" style="margin-top: 140px;">
+                            <div class="card shadow-lg">
+                                <div class="card-body p-4 pt-3 pb-0">
+                                    <h1 class="fw-bold display-5 ff-secondary mb-4 text-success position-relative">
+                                        <div class="job-icon-effect"></div>
+                                        <span>2</span>
+                                    </h1>
+                                    <h6 class="fs-17 mb-2">Company Values:</h6>
+                                    <p class="text-muted mb-0 fs-15"><b>Innovation:</b> Constantly pushing the boundaries to deliver the latest in software development.<br>
+                                        <b>Integrity:</b> Upholding honesty and ethical practices in every project.<br>
+                                        <b>Excellence:</b> Committed to delivering high-quality solutions tailored to client needs.<br>
+                                        <b>Customer-Centric:</b> Prioritizing client satisfaction and building long-term relationships.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6" style="margin-top: 50px;">
+                            <div class="card shadow-lg">
+                                <div class="card-body p-4 pt-3 pb-0">
+                                    <h1 class="fw-bold display-5 ff-secondary mb-4 text-success position-relative">
+                                        <div class="job-icon-effect"></div>
+                                        <span>3</span>
+                                    </h1>
+                                    <h6 class="fs-17 mb-2">Why Choose Vasunite:</h6>
+                                    <p class="text-muted mb-0 fs-15"><b>Customized Solutions:</b> Tailored software development to meet your unique business needs.<br>
+                                        <b>Direct Communication:</b> Work directly with the founder for seamless and effective communication.<br>
+                                        <b>Commitment to Quality:</b> A meticulous approach to ensure the highest standards in every project.<br>
+                                        <b>Scalability:</b> Solutions designed to grow with your business, ensuring long-term value.<br>
+                                        <b>Customized Solutions:</b> We craft software to meet your unique business needs.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body p-4 pt-0 pb-0">
+                                    <h1 class="fw-bold display-5 ff-secondary mb-4 text-success position-relative">
+                                        <div class="job-icon-effect"></div>
+                                        <span>4</span>
+                                    </h1>
+                                    <h6 class="fs-17 mb-2">About the Founder:</h6>
+                                    <p class="text-muted mb-0 fs-15">Meet Someswara Penubaku, the visionary behind Vasunite. With a passion for technology and a dedication to excellence, Someswara brings a wealth of expertise in software development, ensuring that every project is executed with precision and care.<br>
+                                        <b>Personal Touch:</b> Directly involved in all stages of development, from initial consultation to final delivery, ensuring a personalized and responsive service.<br>
+                                        <b>Vision:</b> Aiming to transform the digital landscape by providing innovative solutions that drive business success.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end container-->
+            </section>
+
+
+            <!-- start cta -->
+            <div class="container-fluid">
+            <section class="py-5 bg-primary position-relative ">
+                <div class="bg-overlay bg-overlay-pattern  opacity-50"></div>
+                <div class="container">
+                    <div class="row align-items-center gy-4">
+                        <div class="col-sm">
+                            <div>
+                                <h4 class="text-white mb-2">Ready to Started?</h4>
+                                <p class="text-white-50 mb-0">Create new account and refer your friend</p>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-sm-auto">
+                            <div>
+                                <a href="#!" class="btn bg-gradient btn-danger">Create Free Account</a>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+        </div>
+            <!-- end cta -->
+
+            <!-- start find jobs -->
+            <section class="section" id="findJob">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7">
+                            <div class="text-center mb-5">
+                                <h1 class="mb-3 ff-secondary fw-semibold text-capitalize lh-base">Find Your <span class="text-primary">Solution</span> You Deserve it</h1>
+                                <p class="text-muted">Post a query to tell us about your project. We'll quickly match you with the right solutions.</p>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="avatar-sm">
+                                            <div class="avatar-title bg-warning-subtle rounded">
+                                                <img src="{% static  'images/companies/img-3.png'%}" alt="" class="avatar-xxs">
+                                            </div>
+                                        </div>
+                                        <div class="ms-3 flex-grow-1">
+                                            <a href="#!">
+                                                <h5>Custom Software Development:</h5>
+                                            </a>
+                                            <ul class="list-inline text-muted mb-3">
+                                                <li class="list-inline-item">
+                                                    <b>Tailored Solutions:</b> Develop bespoke software tailored to your specific business needs.
+                                                    
+
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>Technology Stack: </b>Utilize modern programming languages and frameworks like Python, Django, JavaScript, and more.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>End-to-End Development:</b> From initial consultation and planning to development, testing, and deployment.
+                                                </li>
+                                            </ul>
+                                            <div class="hstack gap-2">
+                                                <span class="badge bg-success-subtle text-success">Django</span>
+                                                <span class="badge bg-danger-subtle text-danger">Code Igniter</span>
+                                                <span class="badge bg-primary-subtle text-primary">Node.js </span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn btn-ghost-primary btn-icon custom-toggle" data-bs-toggle="button">
+                                                <span class="icon-on"><i class="ri-bookmark-line"></i></span>
+                                                <span class="icon-off"><i class="ri-bookmark-fill"></i></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="avatar-sm">
+                                            <div class="avatar-title bg-primary-subtle rounded">
+                                                <img src="{% static  'images/companies/img-2.png'%}" alt="" class="avatar-xxs">
+                                            </div>
+                                        </div>
+                                        <div class="ms-3 flex-grow-1">
+                                            <a href="#!">
+                                                <h5> Mobile App Development</h5>
+                                            </a>
+                                            <ul class="list-inline text-muted mb-3">
+                                                <li class="list-inline-item">
+                                                    <b>iOS and Android Apps:</b> Develop native and cross-platform mobile applications.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                   <b>User Experience:</b>  Focus on intuitive and engaging user interfaces.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>Performance Optimization:</b> Ensure apps are fast, reliable, and efficient.
+                                                </li>
+                                            </ul>
+                                            <div class="hstack gap-2">
+                                                <span class="badge bg-primary-subtle text-primary">Android</span>
+                                                <span class="badge bg-secondary-subtle text-secondary">Ios</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn btn-ghost-primary btn-icon custom-toggle active" data-bs-toggle="button">
+                                                <span class="icon-on"><i class="ri-bookmark-line"></i></span>
+                                                <span class="icon-off"><i class="ri-bookmark-fill"></i></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="avatar-sm">
+                                            <div class="avatar-title bg-danger-subtle rounded">
+                                                <img src="{% static  'images/companies/img-4.png'%}" alt="" class="avatar-xxs">
+                                            </div>
+                                        </div>
+                                        <div class="ms-3 flex-grow-1">
+                                            <a href="#!">
+                                                <h5>Web Development</h5>
+                                            </a>
+                                            <ul class="list-inline text-muted mb-3">
+                                                <li class="list-inline-item">
+                                                    <b>Responsive Design:</b> Create websites that work seamlessly across all devices.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>User Experience: </b>Focus on intuitive and engaging user interfaces.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>Performance Optimization:</b> Ensure apps are fast, reliable, and efficient.
+                                                </li>
+                                            </ul>
+                                            <div class="hstack gap-2">
+                                                <span class="badge bg-warning-subtle text-warning">Front-End</span>
+                                                <span class="badge bg-info-subtle text-info">Back-End</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn btn-ghost-primary btn-icon custom-toggle active" data-bs-toggle="button">
+                                                <span class="icon-on"><i class="ri-bookmark-line"></i></span>
+                                                <span class="icon-off"><i class="ri-bookmark-fill"></i></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="avatar-sm">
+                                            <div class="avatar-title bg-success-subtle rounded">
+                                                <img src="{% static  'images/companies/img-9.png'%}" alt="" class="avatar-xxs">
+                                            </div>
+                                        </div>
+                                        <div class="ms-3 flex-grow-1">
+                                            <a href="#!">
+                                                <h5>Consulting Services:</h5>
+                                            </a>
+                                            <ul class="list-inline text-muted mb-3">
+                                                <li class="list-inline-item">
+                                                    <b>Technology Strategy:</b> Provide expert advice on technology adoption and digital transformation.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>System Integration:</b> Seamlessly integrate new solutions with your existing systems.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    Process Improvement: Identify and implement process improvements to enhance operational efficiency.
+                                                </li>
+                                            </ul>
+                                            <div class="hstack gap-2">
+                                                <span class="badge bg-success-subtle text-success">Techinical</span>
+                                                <span class="badge bg-danger-subtle text-danger">Computer Navigation</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn btn-ghost-primary btn-icon custom-toggle" data-bs-toggle="button">
+                                                <span class="icon-on"><i class="ri-bookmark-line"></i></span>
+                                                <span class="icon-off"><i class="ri-bookmark-fill"></i></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="avatar-sm">
+                                            <div class="avatar-title bg-info-subtle rounded">
+                                                <img src="{% static  'images/companies/img-1.png'%}" alt="" class="avatar-xxs">
+                                            </div>
+                                        </div>
+                                        <div class="ms-3 flex-grow-1">
+                                            <a href="#!">
+                                                <h5>Maintenance and Support</h5>
+                                            </a>
+                                            <ul class="list-inline text-muted mb-3">
+                                                <li class="list-inline-item">
+                                                    <b>Ongoing Support:</b> Offer continuous maintenance and support services.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>Bug Fixes and Updates:</b> Regularly update software to fix bugs and add new features.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>Performance Monitoring:</b> Monitor performance and ensure optimal functionality.
+                                                </li>
+                                            </ul>
+                                            <div class="hstack gap-2">
+                                                <span class="badge bg-danger-subtle text-danger">Hosting</span>
+                                                <span class="badge bg-success-subtle text-success">Maintenance of Projects</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn btn-ghost-primary btn-icon custom-toggle" data-bs-toggle="button">
+                                                <span class="icon-on"><i class="ri-bookmark-line"></i></span>
+                                                <span class="icon-off"><i class="ri-bookmark-fill"></i></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card shadow-lg">
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="avatar-sm">
+                                            <div class="avatar-title bg-success-subtle rounded">
+                                                <img src="{% static  'images/companies/img-7.png'%}" alt="" class="avatar-xxs">
+                                            </div>
+                                        </div>
+                                        <div class="ms-3 flex-grow-1">
+                                            <a href="#!">
+                                                <h5> Internship Programs:</h5>
+                                            </a>
+                                            <ul class="list-inline text-muted mb-3">
+                                                <li class="list-inline-item">
+                                                    <b>Hands-on Experience: </b> Offer real-world projects to gain practical skills.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>Mentorship:</b> Provide guidance and learning opportunities from industry experts.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>Career Development: </b>Help interns build a strong foundation for their professional careers.
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <b>Certification: </b>Award certificates upon successful completion, adding value to resumes.
+                                                </li>
+                                            </ul>
+                                            <div class="hstack gap-2">
+                                                <span class="badge bg-success-subtle text-success">Full stack</span>
+                                                <span class="badge bg-danger-subtle text-danger">Data Science</span>
+                                                <span class="badge bg-primary-subtle text-primary">Digital Marketing</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn btn-ghost-primary btn-icon custom-toggle active" data-bs-toggle="button">
+                                                <span class="icon-on"><i class="ri-bookmark-line"></i></span>
+                                                <span class="icon-off"><i class="ri-bookmark-fill"></i></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- end find jobs -->
+
+
+
+
+
+            
+
+
+
+
+
+            
+
+            
+
+            
+
+            
+
+           
+
+            <!-- start cta -->
+            <section class="py-5 bg-primary position-relative">
+                <div class="bg-overlay bg-overlay-pattern opacity-50"></div>
+                <div class="container">
+                    <div class="row align-items-center gy-4">
+                        <div class="col-sm">
+                            <div>
+                                <h4 class="text-white fw-semibold">Get New Jobs Notification!</h4>
+                                <p class="text-white text-opacity-75 mb-0">Subscribe & get all related jobs notification.</p>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-sm-auto">
+                            <button class="btn btn-danger" type="button">Subscribe Now <i class="ri-arrow-right-line align-bottom"></i></button>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- end cta -->
+
+            <!-- Start footer -->
+            <footer class="custom-footer bg-dark py-5 position-relative">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div>
+                                <div>
+                                    <img src="{% static  'logo/backless.png'%}" alt="logo light" height="80" />
+                                </div>
+                                <div class="mt-4 fs-13">
+                                    <p>You can build any type of web application like eCommerce, CRM, CMS, Project management apps, Admin Panels, etc using Vasunite.</p>
+                                    <ul class="list-inline mb-0 footer-social-link">
+                                        <li class="list-inline-item">
+                                            <a href="javascript: void(0);" class="avatar-xs d-block">
+                                                <div class="avatar-title rounded-circle">
+                                                    <i class="ri-facebook-fill"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript: void(0);" class="avatar-xs d-block">
+                                                <div class="avatar-title rounded-circle">
+                                                    <i class="ri-github-fill"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript: void(0);" class="avatar-xs d-block">
+                                                <div class="avatar-title rounded-circle">
+                                                    <i class="ri-linkedin-fill"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript: void(0);" class="avatar-xs d-block">
+                                                <div class="avatar-title rounded-circle">
+                                                    <i class="ri-google-fill"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="javascript: void(0);" class="avatar-xs d-block">
+                                                <div class="avatar-title rounded-circle">
+                                                    <i class="ri-dribbble-line"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 ms-lg-auto">
+                            <div class="row">
+                                <div class="col-sm-4 mt-4">
+                                    <h5 class="text-white mb-0">Company</h5>
+                                    <div class="text-muted mt-3">
+                                        <ul class="list-unstyled ff-secondary footer-list">
+                                            <li><a href="pages-profile.html">About Us</a></li>
+                                            <li><a href="pages-gallery.html">Gallery</a></li>
+                                            <li><a href="pages-team.html">Team</a></li>
+                                            <li><a href="pages-pricing.html">Pricing</a></li>
+                                            <li><a href="pages-timeline.html">Timeline</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 mt-4">
+                                    <h5 class="text-white mb-0">For Jobs</h5>
+                                    <div class="text-muted mt-3">
+                                        <ul class="list-unstyled ff-secondary footer-list">
+                                            <li><a href="apps-job-lists.html">Job List</a></li>
+                                            <li><a href="apps-job-application.html">application</a></li>
+                                            <li><a href="apps-job-new.html">New Job</a></li>
+                                            <li><a href="apps-job-companies-lists.html">Company List</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 mt-4">
+                                    <h5 class="text-white mb-0">Support</h5>
+                                    <div class="text-muted mt-3">
+                                        <ul class="list-unstyled ff-secondary footer-list">
+                                            <li><a href="pages-faqs.html">FAQ</a></li>
+                                            <li><a href="pages-faqs.html">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row text-center text-sm-start align-items-center mt-5">
+                        <div class="col-sm-6">
+                            <div>
+                                <p class="copy-rights mb-0">
+                                    <script> document.write(new Date().getFullYear()) </script> © Vasunite 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end mt-3 mt-sm-0">
+                                <ul class="list-inline mb-0 footer-list gap-4 fs-13">
+                                    <li class="list-inline-item">
+                                        <a href="pages-privacy-policy.html">Privacy Policy</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="pages-term-conditions.html">Terms & Conditions</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="pages-privacy-policy.html">Security</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end footer -->
+
+            <!--start back-to-top-->
+            <button onclick="topFunction()" class="btn btn-info btn-icon landing-back-top" id="back-to-top">
+                <i class="ri-arrow-up-line"></i>
+            </button>
+            <!--end back-to-top-->
+
+        </div>
+        <!-- end layout wrapper -->
+
+
+        <!-- JAVASCRIPT -->
+        <script src="{% static  'libs/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+        <script src="{% static  'libs/simplebar/simplebar.min.js'%}"></script>
+        <script src="{% static  'libs/node-waves/waves.min.js'%}"></script>
+        <script src="{% static  'libs/feather-icons/feather.min.js'%}"></script>
+        <script src="{% static  'js/pages/plugins/lord-icon-2.1.0.js'%}"></script>
+        <script src="{% static  'js/plugins.js'%}"></script>
+
+        <!--Swiper slider js-->
+        <script src="{% static  'libs/swiper/swiper-bundle.min.js'%}"></script>
+
+        <!--job landing init -->
+        <script src="{% static  'js/pages/job-lading.init.js'%}"></script>
+    </body>
+
+
+<!-- Mirrored from themesbrand.com/velzon/html/master/job-landing.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Apr 2024 17:29:36 GMT -->
+</html>
